@@ -1,0 +1,50 @@
+{
+  "plugins": ["plugins/markdown", "jsdoc-http-plugin"],
+  "recurseDepth": 10,
+  "source": {
+    "include": ["src"],
+    "exclude": [
+      ".vscode",
+      "build",
+      "coverage",
+      "docs",
+      "node_module",
+      "public",
+      "tutorials"
+    ],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "sourceType": "module",
+  "opts": {
+    "encoding": "utf8",
+    "readme": "./README.md",
+    "destination": "./docs",
+    "recurse": true,
+    "verbose": true,
+    "template": "./node_modules/clean-jsdoc-theme",
+    "theme_opts": {
+      "theme": "dark",
+      "title": "Template Next",
+      "meta": [
+        {
+          "name": "author",
+          "content": "Team 42"
+        },
+        {
+          "name": "description",
+          "content": "Documentation about ONG Proyect by Team 42."
+        }
+      ],
+      "footer": "<footer>Copyright © 2021. All rights reserved. Team 42.</footer>"
+    }
+  },
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  }
+}

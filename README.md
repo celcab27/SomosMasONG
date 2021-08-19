@@ -1,1 +1,1 @@
-# SomosM-sONG
+Este es un proyecto desarrollado de forma grupal para la aceleración de Alkemy (www.alkemy.org). Consistía en desarrollar una aplicación web para una ONG ficticia. Las tecnologías utilizadas fueron: React para el Frontend y NodeJS (junto con MySQL y Sequelize) para el Backend, así como también diferentes librerías tales como Redux, materialUI, aws, jwt, bcrypt, etc.
